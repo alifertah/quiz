@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-center{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* header */
+header{
+    background-color: rgb(81, 237, 146);
+    color: rgb(255, 255, 255);
+}
+
+/* main */
+.title{
+    margin: 30px 0 50px;
+}
+ul {
+    /* float: left; */
+    width: 100%;
+    justify-content: space-around;
+}
+ul li{
+    text-decoration: none;
+    display: inline;
+    width: 50px;
+    justify-content: space-between;
+    margin: 0px 20% 10px 0;
+}
+.question {
+    margin: 10px 0;
+}
+input{
+    width: 30px;
+    margin: 5px 0 10px;
+}
+#submit{
+    width: 60px;
+    height: 30px;
+    margin: 0 auto;
+}
+.btn-val{
+    width: 100%;
+}
+#submitt{
+    border: none;
+    background-color: rgb(126, 201, 14);
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+#supreme{
+    border: none;
+    background-color: rgb(242, 15, 15);
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+#submit:hover{
+    border: none;
+    background-color: rgb(95, 151, 10);
+    height: 40px;
+    width: 80px;
+}
+#supreme:hover{
+    border: none;
+    background-color: rgb(133, 7, 7);
+    height: 40px;
+    width: 80px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-center{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* header */
+header{
+    background-color: rgb(81, 237, 146);
+    color: rgb(255, 255, 255);
+}
+
+/* main */
+.title{
+    margin: 30px 0 50px;
+}
+ul {
+    /* float: left; */
+    width: 100%;
+    justify-content: space-around;
+}
+ul li{
+    text-decoration: none;
+    display: inline;
+    width: 50px;
+    justify-content: space-between;
+    margin: 0px 20% 10px 0;
+}
+.question {
+    margin: 10px 0;
+}
+input{
+    width: 30px;
+    margin: 5px 0 10px;
+}
+#submit{
+    width: 60px;
+    height: 30px;
+    margin: 0 auto;
+}
+#infos{
+    margin: 150px 0 100px 0;
+    display: flex;
+    justify-content: space-around;
+}
+#mr{
+    position: relative;
+    width: 550px;
+    height: 650px;
+    border-radius: 15px;
+    box-shadow: -3px 2px 20px -1px rgb(81 237 146);
+}
+.gmap_canvas{
+    border-radius: 15px;
+    box-shadow: -3px 2px 20px -1px rgb(81 237 146);
+}
+#mr h2{
+margin-top:  50px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 77px;
+line-height: 0%;
+text-align: center;
+color: #000000;
+}
+
+.dov{
+    position: relative;
+    width: 501px;
+    height: 64px;
+    background: rgb(215 215 215 / 28%);
+    border-radius: 20px;
+}
+#dav_1{
+    position: absolute;
+    left: 25px;
+    top: 149px;
+}
+#dav_2{
+    position: absolute;
+    left: 25px;
+    top: 227px;
+}
+#dav_3{
+    position: absolute;
+    left: 25px;
+    top: 305px;
+}
+#dav_4{
+    position: absolute;
+    left: 25px;
+    top: 383px;
+}
+#dav_5{
+    position: absolute;
+    left: 25px;
+    top: 461px;
+}
+#dav_6{
+    position: absolute;
+    left: 25px;
+    top: 539px;
+}
+.dov #QS{
+    position: absolute;
+width: 123px;
+height: 0px;
+left: 9px;
+top: 30px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 0%;
+/* identical to box height, or 0px */
+
+text-align: center;
+
+color: #000000;
+
+}
+.dov #AN{
+    position: absolute;
+width: 217px;
+height: 0px;
+left: 275px;
+top: 30px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 0%;
+/* identical to box height, or 0px */
+text-align: center;
+color: #000000;
+
+}
+.post{
+    position: relative;
+    height: 501px;
+    margin: 10px 0 0 80px;
+    
+}
+.post .pos{
+
+width: 264px;
+height: 446px;
+border-radius: 15px;
+background: linear-gradient(180deg, rgba(165, 165, 165, 0.27) 0%, rgba(196, 196, 196, 0) 100%);
+}
+.post #post_1{
+    position: absolute;
+    left: 25px;
+    top: 36px;
+}
+.post #post_2{
+    position: absolute;
+    left: 324px;
+    top: 36px;
+}
+.post #post_3{
+    position: absolute;
+    left: 623px;
+    top: 36px;
+}
+.post #post_4{
+    position: absolute;
+    left: 922px;
+    top: 36px;
+}
+.post #post_5{
+    position: absolute;
+    left: 1221px;
+    top: 36px;
+}
+#ph{
+    position: absolute;
+    width: 241px;
+    height: 138px;
+    left: 12px;
+    top: 7px;
+    border-radius: 15px;
+}
+.ph-1{
+    background-image: url("src/Marrakech.png");
+    background-size: cover;
+}
+.ph-2{
+    background-image: url("src/Chefchaouen.jpg");
+    background-size: cover;
+}
+.ph-3{
+    background-image: url("src/Ouarzazate.jpg");
+    background-size: cover;
+}
+.ph-4{
+    background-image: url("src/Essaouira.jpg");
+    background-size: cover;
+}
+.ph-5{
+    background-image: url("src/Fès.jpg");
+    background-size: cover;
+}
+#tex{
+    position: absolute;
+width: 254px;
+height: 291px;
+left: 5px;
+top: 151px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+#hea{
+    position: absolute;
+width: 112px;
+height: 0px;
+left: 69px;
+top: 15px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+line-height: 0%;
+/* identical to box height, or 0px */
+
+text-align: center;
+
+color: #000000;
+}
+#hea-2{
+    position: absolute;
+width: 151px;
+height: 0px;
+left: 50px;
+top: 34px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 0%;
+/* identical to box height, or 0px */
+
+text-align: center;
+
+color: #686868;
+
+}
+#hea-3{
+    position: absolute;
+width: 227px;
+height: 192px;
+left: 12px;
+top: 57px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 100%;
+/* or 12px */
+
+text-align: center;
+
+color: #000000;
+}
+.post img{
+    width: 100px;
+    height: 100px
+}
